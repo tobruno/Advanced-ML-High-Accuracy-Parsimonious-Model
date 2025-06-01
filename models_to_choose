@@ -1,0 +1,7 @@
+Logistic Regression: 3710.0	0.7076	LogisticRegression	{'C': 0.1, 'penalty': 'l2'}	SelectFromModel_thresh=99.7th_percentile	2
+                     3342.5	0.7172	LogisticRegression	{'C': 0.1, 'penalty': 'l1'}	SelectKBest_k=4	4
+Random Forest: 3500.0	0.7174	RandomForest	{'n_estimators': 500, 'max_depth': 5}	SelectKBest_k=4	4
+               3807.5	0.7048	RandomForest	{'n_estimators': 500, 'max_depth': 3}	SelectFromModel_thresh=99.7th_percentile	2
+AdaBoost:      3860.0	0.7060	AdaBoost	{'n_estimators': 400, 'max_depth': None}	SelectKBest_k=2	2
+GradientBoosting: 3342.5	0.7172	LogisticRegression	{'C': 0.1, 'penalty': 'l1'}	SelectKBest_k=4	4
+Bagging: 3055.0	0.7068	BaggingClassifier	{'n_estimators': 500}	SelectKBest_k=6	6
